@@ -1,0 +1,119 @@
+img {
+  width: 400px;
+  margin-right: 30px;
+}
+
+.sound-div img {
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+}
+
+.sound-div img p {
+  text-align: baseline;
+  padding-bottom: 400px;
+}
+.sound-div {
+  width: 150px;
+  height: 150px;
+  /* padding: 60px 60px; */
+  margin: 10px;
+  color: white;
+  background-color: rgb(118, 5, 124);
+  border: none;
+  border-radius: 25%;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.gif {
+  background-image: url(../images/gif/daftpunkgif.gif);
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  background-size: cover;
+  transition: 0.2s ease-in-out;
+  background-position: center;
+}
+
+.gif2 {
+  background-image: url(../images/gif/gif2.gif);
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  background-size: cover;
+  transition: 0.2s ease-in-out;
+  background-position: center;
+}
+
+.gif3 {
+  background-image: url(../images/gif/gif3.gif);
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  background-size: cover;
+  transition: 0.2s ease-in-out;
+  background-position: center;
+}
+
+.gif4 {
+  background-image: url(../images/gif/gif4.gif);
+  width: 150px;
+  height: 150px;
+  border-radius: 25%;
+  background-size: cover;
+  transition: 0.2s ease-in-out;
+  background-position: center;
+}
+
+/* .gif-div {
+  background-image: url(/images/gif/daftpunkgif.gif);
+  width: 150px;
+  height: 150px;
+  padding: 60px 60px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(118, 5, 124);
+  border: none;
+  border-radius: 25%;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  align-items: center;
+} */
+
+.sound-div p {
+  padding-top: 45px;
+  font-family: "Orbitron";
+}
+
+.sound-div:hover {
+  transform: scale(1.1);
+  opacity: 1;
+  cursor: pointer;
+  /* display: none; */
+}
+
+body {
+  background-image: url("https://static.highsnobiety.com/thumbor/y0VYQ24NjxDXdlL-waILJUvcaig=/1600x1067/static.highsnobiety.com/wp-content/uploads/2020/04/27230905/daft-punk-scoring-dario-argento-movie-01.jpg");
+  background-color: grey;
+  background-blend-mode: darken;
+  background-size: cover;
+  display: flex;
+}
+
+.whole-soundboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: calc(45% - 50px);
+}
